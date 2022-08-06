@@ -1,0 +1,37 @@
+=================================================================================
+AutoComplete Search
+---------------------------------------------------------------------------------
+method: /Get
+
+URL: https://demo.nopcommerce.com/catalog/searchtermautocomplete?term=laptop
+    
+>>	Response Received == [
+        	{
+            	"label": "Asus N551JK-XO076H Laptop",
+            	"producturl": "/asus-n551jk-xo076h-laptop",
+           	"productpictureurl": null,
+            	"showlinktoresultsearch": false
+        	},
+        	{
+            	"label": "Lenovo Thinkpad X1 Carbon Laptop",
+            	"producturl": "/lenovo-thinkpad-x1-carbon-laptop",
+            	"productpictureurl": null,
+            	"showlinktoresultsearch": false
+        	}
+    	]
+
+	[
+    	{
+        	"label": "Asus N551JK-XO076H Laptop",
+        	"producturl": "/asus-n551jk-xo076h-laptop",
+        	"productpictureurl": null,
+        	"showlinktoresultsearch": false
+    	},
+    	{
+        	"label": "Lenovo Thinkpad X1 Carbon Laptop",
+        	"producturl": "/lenovo-thinkpad-x1-carbon-laptop",
+        	"productpictureurl": null,
+        	"showlinktoresultsearch": false
+    	}
+	]
+=================================================================================
